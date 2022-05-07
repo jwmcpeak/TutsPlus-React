@@ -1,0 +1,9 @@
+:global .boldYellowText {
+    font-weight: bold;
+    color: yellow !important;
+}
+
+.myNavbarBrand {
+    composes: navbar-brand from './../node_modules/bootstrap/dist/css/bootstrap.min.css';
+    composes: boldYellowText from global;
+}
